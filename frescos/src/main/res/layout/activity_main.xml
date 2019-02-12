@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+   <Button
+       android:layout_width="100dp"
+       android:layout_height="50dp"
+       android:id="@+id/yj"
+       android:text="@string/app_yuanjao"
+       />
+
+   <Button
+       android:id="@+id/yx"
+       android:layout_width="100dp"
+       android:layout_height="50dp"
+       android:text="@string/app_yuan" />
+
+   <Button
+       android:id="@+id/bl"
+       android:layout_width="100dp"
+       android:layout_height="50dp"
+       android:text="@string/app_bli" />
+
+   <Button
+       android:id="@+id/jianjin"
+       android:layout_width="100dp"
+       android:layout_height="50dp"
+       android:text="@string/app_jianjing" />
+   <Button
+       android:id="@+id/cipan"
+       android:layout_width="100dp"
+       android:layout_height="50dp"
+       android:text="@string/app_cpan" />
+   <Button
+       android:id="@+id/dotu"
+       android:layout_width="100dp"
+       android:layout_height="50dp"
+       android:text="@string/app_jiazaidontu" />
+   <Button
+       android:id="@+id/jiantin"
+       android:layout_width="100dp"
+       android:layout_height="50dp"
+       android:text="@string/app_jiazaijianting" />
+
+   <com.facebook.drawee.view.SimpleDraweeView
+       android:id="@+id/frecs"
+       android:layout_width="400dp"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="8dp"
+       android:layout_marginBottom="30dp" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Frescos</string>
+    <string name="app_yuanjao">圆角</string>
+    <string name="app_yuan">圆形</string>
+    <string name="app_bli">比例</string>
+    <string name="app_jianjing">渐进</string>
+    <string name="app_cpan">磁盘缓存</string>
+    <string name="app_jiazaidontu">加载动图</string>
+    <string name="app_jiazaijianting">加载监听</string>
+</resources>
